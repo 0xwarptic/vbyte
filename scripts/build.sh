@@ -36,6 +36,7 @@ PACKAGES=(
     "plugin-node"
     "plugin-bootstrap"
     "plugin-image-generation"
+    "plugin-video-generation"
 )
 
 # Build packages in specified order
