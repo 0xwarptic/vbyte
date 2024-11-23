@@ -1,10 +1,11 @@
 import { Character, Clients, ModelProviderName, defaultCharacter } from "@ai16z/eliza";
 import { imageGenerationPlugin } from "@ai16z/plugin-image-generation";
 import { videoGenerationPlugin } from "@ai16z/plugin-video-generation";
+import { evmPlugin } from "@ai16z/plugin-evm";
 
 export const character: Character = {
     name: "vbyte_ai16z",
-    plugins: [imageGenerationPlugin, videoGenerationPlugin],
+    plugins: [imageGenerationPlugin, videoGenerationPlugin, evmPlugin],
     clients: [
         Clients.DISCORD
     ],
